@@ -1,20 +1,11 @@
 import React from "react";
-import { Jumbotron, Button } from "react-bootstrap";
+import Navbar1 from "./Navbar1";
 
 function App() {
   return (
     <div className='App'>
       <header className='App-header'>
-        <Jumbotron>
-          <h1>Hello, world!</h1>
-          <p>
-            This is a simple hero unit, a simple jumbotron-style component for
-            calling extra attention to featured content or information.
-          </p>
-          <p>
-            <Button variant='primary'>Learn more</Button>
-          </p>
-        </Jumbotron>
+        <Navbar1 />
       </header>
     </div>
   );
